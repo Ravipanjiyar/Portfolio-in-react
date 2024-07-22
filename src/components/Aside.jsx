@@ -5,6 +5,7 @@ import '../App.css'
 // import { IoMailOutline } from 'react-icons/io5';
 import IonIcon from '@reacticons/ionicons';
 import Leetcode from './Leetcode';
+import dp from './images/my-avatar.png';
 
 
 function Aside() {
@@ -12,7 +13,7 @@ function Aside() {
   return (
     <aside>
       <div className='bg1'>
-        <img src="src\components\images\my-avatar.png" alt="" />
+        <img src={dp} alt="" />
 
       </div>
 

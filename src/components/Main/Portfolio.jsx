@@ -2,6 +2,12 @@ import React from 'react'
 import IonIcon from '@reacticons/ionicons';
 import Cards from './Cards';
 import '../../App.css'
+import project4 from '../images/project1.png'
+import project1 from '../images/project2.png'
+import project3 from '../images/project3.png'
+import project2 from '../images/project4.png'
+import project5 from '../images/project5.png'
+
 
 function Portfolio() {
   return (
@@ -15,31 +21,31 @@ function Portfolio() {
 
       <section className="all">
         <Cards  
-          img="src\components\images\project2.png"
+          img={project1}
           rf="https://github.com/Ravipanjiyar/Ecommerce-web"
           head = "E-Commenrce"
           para="Web Development"
         />
       <Cards  
-        img="src\components\images\project5.png"
+        img={project5}
         rf="https://github.com/Ravipanjiyar/Todo_Using_Redux"
         head = "To-do"
         para="Web Development"
       />
       <Cards  
-        img="src\components\images\project4.png"
+        img={project2}
         rf="https://github.com/Ravipanjiyar/currency-changer"
         head = "Currency changer"
         para="Web Development"
       />
       <Cards  
-        img="src\components\images\project1.png"
+        img={project4}
         rf="https://github.com/Ravipanjiyar/weather_reports"
         head = "Weather-App"
         para="Web Development"
       />
       <Cards  
-        img="src\components\images\project3.png"
+        img={project3}
         rf="https://github.com/Ravipanjiyar/Game1"
         head = "Tic-tac-toe"
         para="Web Development"

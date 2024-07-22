@@ -4,6 +4,9 @@ import '../../App.css'
 import IonIcon from '@reacticons/ionicons';
 import Leetcode from '../Leetcode';
 import Profile from '../Profile';
+import leetcode from '../images/leetcode_profile.png';
+import linkedin from '../images/Linkedin_profile.png';
+import Github from '../images/github_profile.png';
 // import ProfileFlow from '../ProfileFlow';
 
 function Resume() {
@@ -127,12 +130,12 @@ function Resume() {
 
             <div className="outer">
                 <div className="inner1">
-                    <Profile rf="https://leetcode.com/u/ravipanjiyar23/" comp={<Leetcode />} infor="Explore my LeetCode profile to see my coding solutions and problem-solving capabilities. Regularly engage in coding challenges to sharpen my algorithm and data structure skills." image = "src\components\images\leetcode_profile.png"/>
-                    <Profile rf="https://github.com/Ravipanjiyar" comp={<IonIcon name="logo-github" />} infor="Welcome to my GitHub profile! Here you'll find a collection of my web dev projects. Let's connect and collaborate!" image = "src\components\images\github_profile.png"/>
+                    <Profile rf="https://leetcode.com/u/ravipanjiyar23/" comp={<Leetcode />} infor="Explore my LeetCode profile to see my coding solutions and problem-solving capabilities. Regularly engage in coding challenges to sharpen my algorithm and data structure skills." image = {leetcode}/>
+                    <Profile rf="https://github.com/Ravipanjiyar" comp={<IonIcon name="logo-github" />} infor="Welcome to my GitHub profile! Here you'll find a collection of my web dev projects. Let's connect and collaborate!" image = {Github}/>
                 </div>
                 <div className="inner2">
 
-                <Profile rf="https://www.linkedin.com/in/ravi-kumar-5b6840215/" comp={<IonIcon name="logo-linkedin" />} infor="Welcome to my LinkedIn profile! I am a dedicated software developer with a passion for problem-solving and Web dev. My expertise spans web development, algorithms, and data structures. Connect with me to explore my journey in technology." image = "src\components\images\Linkedin_profile.png"/>
+                <Profile rf="https://www.linkedin.com/in/ravi-kumar-5b6840215/" comp={<IonIcon name="logo-linkedin" />} infor="Welcome to my LinkedIn profile! I am a dedicated software developer with a passion for problem-solving and Web dev. My expertise spans web development, algorithms, and data structures. Connect with me to explore my journey in technology." image = {linkedin}/>
 
                 </div>
             </div>
