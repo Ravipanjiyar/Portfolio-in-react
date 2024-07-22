@@ -111,7 +111,7 @@ function Resume() {
                     <p className="timeline-text">
                         Developed a dynamic currency converter application using ReactJS, integrating with a real-time exchange rate API to facilitate accurate currency conversions. Implemented user-friendly features such as input fields for amount selection, dropdown menus for currency selection, and instant conversion updates. Applied responsive design principles and CSS for a polished user interface, ensuring seamless functionality across devices. Enhanced the application with error handling mechanisms and robust API integration to deliver reliable performance.
                     </p>
-                    <a href="https://github.com/Ravipanjiyar/currency-changer" className='aa'>Website Link</a>
+                    <a href="https://github.com/Ravipanjiyar/currency-changer" className='aa'>Repo Link</a>
 
                 </li>
 
